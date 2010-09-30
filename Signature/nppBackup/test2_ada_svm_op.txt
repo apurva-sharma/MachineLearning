@@ -1,0 +1,354 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.functions.SMO -- -C 1.0 -L 0.0010 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     TRAIN_2-weka.filters.unsupervised.attribute.NumericToNominal-Rlast
+Instances:    11550
+Attributes:   12
+              entropy
+              gray level threshold
+              no of black pixels
+              no of interior contours
+              no of exterior contours
+              no vertical slope components
+              no horizontal slope components
+              no positive slope components
+              no negative slope components
+              slant
+              height
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        20.8379 * (normalized) entropy
+ +       0.1854 * (normalized) gray level threshold
+ +      -1.2564 * (normalized) no of black pixels
+ +      -0.4281 * (normalized) no of interior contours
+ +      -1.2163 * (normalized) no of exterior contours
+ +       3.0758 * (normalized) no vertical slope components
+ +       0.3152 * (normalized) no horizontal slope components
+ +       0.3067 * (normalized) no positive slope components
+ +       0.0105 * (normalized) no negative slope components
+ +       1.4958 * (normalized) slant
+ +       0.2674 * (normalized) height
+ -       2.3823
+
+Number of kernel evaluations: 1468826 (66.728% cached)
+
+
+
+Weight: 3.72
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        13.8995 * (normalized) entropy
+ +      -0.8899 * (normalized) gray level threshold
+ +      -2.8457 * (normalized) no of black pixels
+ +       1.5294 * (normalized) no of interior contours
+ +       0.5516 * (normalized) no of exterior contours
+ +       0.6037 * (normalized) no vertical slope components
+ +      -1.1967 * (normalized) no horizontal slope components
+ +       0.7832 * (normalized) no positive slope components
+ +       2.1631 * (normalized) no negative slope components
+ +       1.1811 * (normalized) slant
+ +      -1.7251 * (normalized) height
+ +       0.1004
+
+Number of kernel evaluations: 1473232 (61.015% cached)
+
+
+
+Weight: 1.29
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        13.8593 * (normalized) entropy
+ +      -2.8775 * (normalized) gray level threshold
+ +      -2.3803 * (normalized) no of black pixels
+ +       3.742  * (normalized) no of interior contours
+ +       1.3247 * (normalized) no of exterior contours
+ +       1.209  * (normalized) no vertical slope components
+ +      -0.5412 * (normalized) no horizontal slope components
+ +       0.4131 * (normalized) no positive slope components
+ +       0.7186 * (normalized) no negative slope components
+ +       1.1701 * (normalized) slant
+ +      -1.073  * (normalized) height
+ -       1.2709
+
+Number of kernel evaluations: 7592858 (61.619% cached)
+
+
+
+Weight: 0.89
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        10.8728 * (normalized) entropy
+ +      -3.4648 * (normalized) gray level threshold
+ +       3.0723 * (normalized) no of black pixels
+ +      -1.6167 * (normalized) no of interior contours
+ +      -3.7918 * (normalized) no of exterior contours
+ +       2.4652 * (normalized) no vertical slope components
+ +       0.96   * (normalized) no horizontal slope components
+ +       1.2863 * (normalized) no positive slope components
+ +       2.2149 * (normalized) no negative slope components
+ +       0.3373 * (normalized) slant
+ +       0.7268 * (normalized) height
+ -       0.7183
+
+Number of kernel evaluations: 2811352 (59.093% cached)
+
+
+
+Weight: 0.91
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         6.7578 * (normalized) entropy
+ +       0.0179 * (normalized) gray level threshold
+ +      -2.901  * (normalized) no of black pixels
+ +       2.4923 * (normalized) no of interior contours
+ +       2.3872 * (normalized) no of exterior contours
+ +       0.4641 * (normalized) no vertical slope components
+ +      -0.0609 * (normalized) no horizontal slope components
+ +      -1.1371 * (normalized) no positive slope components
+ +      -1.5132 * (normalized) no negative slope components
+ +       1.8621 * (normalized) slant
+ +      -0.3854 * (normalized) height
+ -       1.0619
+
+Number of kernel evaluations: 8843426 (61.1% cached)
+
+
+
+Weight: 0.52
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0004 * (normalized) entropy
+ +       0      * (normalized) gray level threshold
+ +      -0.0008 * (normalized) no of black pixels
+ +       0.0015 * (normalized) no of interior contours
+ +       0.0002 * (normalized) no of exterior contours
+ +      -0.0003 * (normalized) no vertical slope components
+ +      -0.0009 * (normalized) no horizontal slope components
+ +      -0.0012 * (normalized) no positive slope components
+ +      -0.0033 * (normalized) no negative slope components
+ +       0.0026 * (normalized) slant
+ +       0      * (normalized) height
+ +       1.0008
+
+Number of kernel evaluations: 10517969 (49.996% cached)
+
+
+
+Weight: 0.31
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         6.5542 * (normalized) entropy
+ +       1.0354 * (normalized) gray level threshold
+ +      -4.5586 * (normalized) no of black pixels
+ +       3.4773 * (normalized) no of interior contours
+ +       2.7926 * (normalized) no of exterior contours
+ +       0.6456 * (normalized) no vertical slope components
+ +      -0.1668 * (normalized) no horizontal slope components
+ +      -1.4236 * (normalized) no positive slope components
+ +      -2.1249 * (normalized) no negative slope components
+ +       2.4183 * (normalized) slant
+ +      -0.5827 * (normalized) height
+ -       0.9302
+
+Number of kernel evaluations: 6187391 (59.67% cached)
+
+
+
+Weight: 0.31
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0007 * (normalized) entropy
+ +       0.0003 * (normalized) gray level threshold
+ +       0.0005 * (normalized) no of black pixels
+ +       0.0005 * (normalized) no of interior contours
+ +       0.0005 * (normalized) no of exterior contours
+ +      -0.0001 * (normalized) no vertical slope components
+ +      -0.0002 * (normalized) no horizontal slope components
+ +      -0.0016 * (normalized) no positive slope components
+ +      -0.002  * (normalized) no negative slope components
+ +       0.0022 * (normalized) slant
+ +       0.0005 * (normalized) height
+ +       0.9996
+
+Number of kernel evaluations: 3668584 (54.709% cached)
+
+
+
+Weight: 0.25
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         6.3442 * (normalized) entropy
+ +       0.2464 * (normalized) gray level threshold
+ +      -2.1467 * (normalized) no of black pixels
+ +       2.6873 * (normalized) no of interior contours
+ +       0.3938 * (normalized) no of exterior contours
+ +       0.4406 * (normalized) no vertical slope components
+ +      -0.1342 * (normalized) no horizontal slope components
+ +      -0.8316 * (normalized) no positive slope components
+ +      -1.5282 * (normalized) no negative slope components
+ +       1.5742 * (normalized) slant
+ +      -0.4927 * (normalized) height
+ -       0.9209
+
+Number of kernel evaluations: 13901013 (52.667% cached)
+
+
+
+Weight: 0.2
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0005 * (normalized) entropy
+ +       0.0001 * (normalized) gray level threshold
+ +      -0.0023 * (normalized) no of black pixels
+ +       0.0021 * (normalized) no of interior contours
+ +       0.0003 * (normalized) no of exterior contours
+ +       0.0002 * (normalized) no vertical slope components
+ +      -0.0003 * (normalized) no horizontal slope components
+ +      -0.0003 * (normalized) no positive slope components
+ +      -0.0015 * (normalized) no negative slope components
+ +       0.0014 * (normalized) slant
+ +       0      * (normalized) height
+ +       1.0006
+
+Number of kernel evaluations: 8960520 (51.16% cached)
+
+
+
+Weight: 0.18
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 48.53 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances       11139               96.4416 %
+Incorrectly Classified Instances       411                3.5584 %
+Kappa statistic                          0.9189
+Mean absolute error                      0.0436
+Root mean squared error                  0.1806
+Relative absolute error                 10.1235 %
+Root relative squared error             38.9137 %
+Total Number of Instances            11550     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.977     0.041      0.915     0.977     0.945      0.987    0
+                 0.959     0.023      0.989     0.959     0.974      0.987    1
+Weighted Avg.    0.964     0.029      0.966     0.964     0.965      0.987
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 3547   83 |    a = 0
+  328 7592 |    b = 1
+

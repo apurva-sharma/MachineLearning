@@ -1,0 +1,159 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     TRAIN_2-weka.filters.unsupervised.attribute.NumericToNominal-Rlast
+Instances:    11550
+Attributes:   12
+              entropy
+              gray level threshold
+              no of black pixels
+              no of interior contours
+              no of exterior contours
+              no vertical slope components
+              no horizontal slope components
+              no positive slope components
+              no negative slope components
+              slant
+              height
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    12.785076855734665
+    Node 2    -10.234804007067979
+    Node 3    -9.344247981590474
+    Node 4    -6.223596851501073
+    Node 5    -9.803142234079742
+    Node 6    -8.39838259916993
+    Node 7    -8.070150615913265
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -12.785080829861164
+    Node 2    10.234807596069023
+    Node 3    9.344251249374816
+    Node 4    6.223598516591173
+    Node 5    9.80314567787151
+    Node 6    8.398385103159749
+    Node 7    8.07015343194656
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    6.434220951469093
+    Attrib entropy    36.509844983120274
+    Attrib gray level threshold    -5.679441305926427
+    Attrib no of black pixels    1.2431091468395827
+    Attrib no of interior contours    -29.959046692119294
+    Attrib no of exterior contours    -29.01585398157218
+    Attrib no vertical slope components    8.41043881089218
+    Attrib no horizontal slope components    13.22496895012112
+    Attrib no positive slope components    7.253533829221053
+    Attrib no negative slope components    25.208280350157626
+    Attrib slant    -14.241282777507408
+    Attrib height    4.197161374164736
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    27.71468569175478
+    Attrib entropy    31.398967339092213
+    Attrib gray level threshold    7.903901669413558
+    Attrib no of black pixels    2.874542207893048
+    Attrib no of interior contours    -1.102418574565499
+    Attrib no of exterior contours    3.194869094200372
+    Attrib no vertical slope components    -0.8388059272272136
+    Attrib no horizontal slope components    -1.394405996459084
+    Attrib no positive slope components    9.318929966557015
+    Attrib no negative slope components    -12.785361975742658
+    Attrib slant    -2.661334423979261
+    Attrib height    0.4960310233645465
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    24.528914654981843
+    Attrib entropy    39.735551806106926
+    Attrib gray level threshold    5.136310388437959
+    Attrib no of black pixels    7.934462832893787
+    Attrib no of interior contours    -17.018176029258164
+    Attrib no of exterior contours    -8.952429215922148
+    Attrib no vertical slope components    -1.4480409514178014
+    Attrib no horizontal slope components    1.6262345905195712
+    Attrib no positive slope components    -9.80725871975112
+    Attrib no negative slope components    12.766611885994736
+    Attrib slant    6.316264399493345
+    Attrib height    -1.2737741586743678
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    4.452457123984395
+    Attrib entropy    12.746587287116823
+    Attrib gray level threshold    -4.793158911575145
+    Attrib no of black pixels    0.23643545142990452
+    Attrib no of interior contours    -0.3742453879914067
+    Attrib no of exterior contours    1.2817542710017722
+    Attrib no vertical slope components    4.570693758904832
+    Attrib no horizontal slope components    -5.70836661990946
+    Attrib no positive slope components    -5.659197507558324
+    Attrib no negative slope components    8.906566744084408
+    Attrib slant    7.57985250604657
+    Attrib height    7.654236664013821
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    0.7634902664651917
+    Attrib entropy    42.585304572183595
+    Attrib gray level threshold    16.9966629862619
+    Attrib no of black pixels    3.524823122455327
+    Attrib no of interior contours    -27.261899857724963
+    Attrib no of exterior contours    -13.935255394440869
+    Attrib no vertical slope components    17.593012147864997
+    Attrib no horizontal slope components    -13.27333647670499
+    Attrib no positive slope components    4.0527463433283435
+    Attrib no negative slope components    -18.793061101578918
+    Attrib slant    5.1381164391185505
+    Attrib height    -6.2593311616855205
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    8.64145266606226
+    Attrib entropy    22.37459993308541
+    Attrib gray level threshold    -7.783858017113382
+    Attrib no of black pixels    -10.99140352588797
+    Attrib no of interior contours    10.985018632716862
+    Attrib no of exterior contours    4.111391812992232
+    Attrib no vertical slope components    0.2153120498978787
+    Attrib no horizontal slope components    -3.1836112809434085
+    Attrib no positive slope components    -10.873284489896841
+    Attrib no negative slope components    18.412485311541793
+    Attrib slant    -6.635954993120318
+    Attrib height    -4.032106030739766
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Time taken to build model: 27.11 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances       11237               97.29   %
+Incorrectly Classified Instances       313                2.71   %
+Kappa statistic                          0.938 
+Mean absolute error                      0.0297
+Root mean squared error                  0.1537
+Relative absolute error                  6.8942 %
+Root relative squared error             33.1122 %
+Total Number of Instances            11550     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.984     0.032      0.933     0.984     0.958      0.994    0
+                 0.968     0.016      0.992     0.968     0.98       0.994    1
+Weighted Avg.    0.973     0.021      0.974     0.973     0.973      0.994
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 3572   58 |    a = 0
+  255 7665 |    b = 1
+

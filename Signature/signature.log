@@ -1,0 +1,242 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.2.10)  26 APR 2010 04:08
+entering extended mode
+**C:/all*tech*stuff/My*Dropbox/Signature/signature.tex
+("C:/all tech stuff/My Dropbox/Signature/signature.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\all tech stuff\My Dropbox\Signature\nips2003e.sty"
+\titlebox=\skip43
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip44
+\f@ncyO@elh=\skip45
+\f@ncyO@erh=\skip46
+\f@ncyO@olh=\skip47
+\f@ncyO@orh=\skip48
+\f@ncyO@elf=\skip49
+\f@ncyO@erf=\skip50
+\f@ncyO@olf=\skip51
+\f@ncyO@orf=\skip52
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
+ (JPG)
+)
+("C:\all tech stuff\My Dropbox\Signature\signature.aux"
+
+LaTeX Warning: Label `fig:figure1' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure2' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 41.
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+("C:\Program Files\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen106
+\MPnumerator=\count92
+\everyMPtoPDFconversion=\toks16
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 43.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 43.
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+
+<BlockDiagram.PNG, id=1, 499.8675pt x 199.74625pt>
+File: BlockDiagram.PNG Graphic file (type png)
+ <use BlockDiagram.PNG>
+[1
+
+{C:/ProgramData/MiKTeX/2.8/pdftex/config/pdftex.map}]
+<ProjectDiagram.PNG, id=9, 404.51125pt x 329.23pt>
+File: ProjectDiagram.PNG Graphic file (type png)
+ <use ProjectDiagram.PNG>
+
+Package Fancyhdr Warning: \footskip is too small (0.0pt): 
+ Make it at least 5.59998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <C:/all tech stuff/My Dropbox/Signature/BlockDiagram.PNG (PNG copy)> <C:/all
+ tech stuff/My Dropbox/Signature/ProjectDiagram.PNG (PNG copy)>]
+<Features.png, id=13, 787.94376pt x 227.85126pt>
+File: Features.png Graphic file (type png)
+ <use Features.png>
+Overfull \hbox (54.20227pt too wide) in paragraph at lines 91--92
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+
+ []
+
+[3] [4 <C:/all tech stuff/My Dropbox/Signature/Features.png (PNG copy)>]
+<threshold2.png, id=20, 232.61906pt x 133.24782pt>
+File: threshold2.png Graphic file (type png)
+ <use threshold2.png>
+<threshold1.png, id=21, 205.5178pt x 127.22531pt>
+File: threshold1.png Graphic file (type png)
+ <use threshold1.png>
+Overfull \hbox (18.0264pt too wide) in paragraph at lines 136--149
+[][]   [] 
+ []
+
+[5 <C:/all tech stuff/My Dropbox/Signature/threshold2.png (PNG copy)> <C:/all t
+ech stuff/My Dropbox/Signature/threshold1.png (PNG copy)>]
+<ImageProcessing.PNG, id=25, 698.61pt x 744.7825pt>
+File: ImageProcessing.PNG Graphic file (type png)
+ <use ImageProcessing.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<polarfigure.png, id=26, 347.79938pt x 212.29312pt>
+File: polarfigure.png Graphic file (type png)
+ <use polarfigure.png>
+Underfull \hbox (badness 10000) in paragraph at lines 208--217
+
+ []
+
+[6] [7 <C:/all tech stuff/My Dropbox/Signature/ImageProcessing.PNG (PNG copy)>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--240
+
+ []
+
+<Test1.png, id=34, 465.74pt x 295.1025pt>
+File: Test1.png Graphic file (type png)
+ <use Test1.png>
+<Test2.png, id=35, 466.74374pt x 300.12125pt>
+File: Test2.png Graphic file (type png)
+ <use Test2.png>
+Overfull \hbox (18.0264pt too wide) in paragraph at lines 244--257
+[][]   [] 
+ []
+
+<comparisons.png, id=36, 420.82219pt x 257.46187pt>
+File: comparisons.png Graphic file (type png)
+ <use comparisons.png>
+[8 <C:/all tech stuff/My Dropbox/Signature/polarfigure.png (PNG copy)>]
+[9 <C:/all tech stuff/My Dropbox/Signature/Test1.png (PNG copy)> <C:/all tech s
+tuff/My Dropbox/Signature/Test2.png (PNG copy)> <C:/all tech stuff/My Dropbox/S
+ignature/comparisons.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+[]\OT1/ptm/m/n/9 [2] Sig-na-ture dataset - CEDAR, Uni-ver-sity at Buf-falo,
+ []
+
+Missing character: There is no ï in font ptmri7t!
+Missing character: There is no ¿ in font ptmri7t!
+Missing character: There is no ½ in font ptmri7t!
+Missing character: There is no ï in font ptmri7t!
+Missing character: There is no ¿ in font ptmri7t!
+Missing character: There is no ½ in font ptmri7t!
+AED: lastpage setting LastPage [10]
+("C:\all tech stuff\My Dropbox\Signature\signature.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 293 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 1192 strings out of 495285
+ 15457 string characters out of 3180394
+ 68001 words of memory out of 3000000
+ 4408 multiletter control sequences out of 15000+200000
+ 16486 words of font info for 32 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 25i,10n,43p,1447b,252s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.8/fonts/enc/dvips/fontname/8r.enc}<C
+:/Program Files/MiKTeX 2.8/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files
+/MiKTeX 2.8/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.8/fonts
+/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/urw/times/
+utmri8a.pfb>
+Output written on signature.pdf (10 pages, 411759 bytes).
+PDF statistics:
+ 62 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+

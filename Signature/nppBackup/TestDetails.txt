@@ -1,0 +1,53 @@
+
+1st Dataset:
+============
+
+Train
+30 => original & forgery
+30 * 276 (8280) => original-original difference
+30 * 576 (17280) => original-forgery difference
+Total = 25560
+
+Test
+25 => original & forgery
+25 * 276 (6900) => original-original difference
+25 * 576 (14400) => original-forgery difference
+Total = 21300
+
+
+
+2nd Dataset:
+============
+
+Train
+12 => Original
+12 => Forgery
+12 * 12 = 144 => ori-forg difference
+12 * 11 / 2 = 66 => ori-ori difference
+Total = 210 * 55 = 11550
+
+Test
+12 => Original
+12 => Forgery
+12 * 12 = 144 => ori-forg difference
+12 * 11 / 2 = 66 => ori-ori difference
+Total = 210 * 55 = 11550
+
+
+
+3rd Dataset:
+============
+
+Train
+15 => Original
+15 => Forgery
+15 * 15 = 225 => ori-forg difference
+15 * 14 / 2 = 105 => ori-ori difference
+Total = 330 * 105 = 34650
+
+Test
+9 => Original
+9 => Forgery
+9 * 9 = 81 => ori-forg difference
+9 * 8 / 2 = 36 => ori-ori difference
+Total = 117 * 55 = 6435

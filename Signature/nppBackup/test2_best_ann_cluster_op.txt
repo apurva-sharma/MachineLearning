@@ -1,0 +1,183 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     EM_TRAIN_2_filtered-weka.filters.unsupervised.attribute.NumericToNominal-Rlast
+Instances:    11550
+Attributes:   13
+              1
+              2
+              3
+              4
+              5
+              6
+              7
+              8
+              9
+              10
+              11
+              cluster
+              label
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    11.143613122299383
+    Node 2    -4.837651149164284
+    Node 3    -8.25791376439592
+    Node 4    -11.839892607158268
+    Node 5    -7.466954851680756
+    Node 6    -13.135524140429716
+    Node 7    -7.724587617302739
+    Node 8    -4.941067106670351
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -11.14361256136851
+    Node 2    4.837650903447553
+    Node 3    8.257913265560049
+    Node 4    11.839892001551952
+    Node 5    7.466954479992229
+    Node 6    13.135523282427211
+    Node 7    7.724587239620812
+    Node 8    4.941066818411323
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    10.519408625846458
+    Attrib 1    28.90376897237266
+    Attrib 2    16.44727552386353
+    Attrib 3    11.223947587012214
+    Attrib 4    -6.449061381614181
+    Attrib 5    -10.293384723257336
+    Attrib 6    6.978409064202695
+    Attrib 7    -13.692827017552307
+    Attrib 8    -7.29022542852705
+    Attrib 9    -12.097106831246508
+    Attrib 10    10.42142774969859
+    Attrib 11    -5.971229305837192
+    Attrib cluster    -11.311240459770401
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    5.819463660232362
+    Attrib 1    10.325192861235072
+    Attrib 2    -6.933972465885717
+    Attrib 3    1.841103582107193
+    Attrib 4    4.487227794403873
+    Attrib 5    4.458243235202907
+    Attrib 6    0.1763726647081983
+    Attrib 7    -5.081566626406849
+    Attrib 8    -1.268446663132616
+    Attrib 9    4.352372407669741
+    Attrib 10    0.5790780477692028
+    Attrib 11    7.580378484437979
+    Attrib cluster    1.5854130859425106
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    12.108804690395951
+    Attrib 1    28.71206735557569
+    Attrib 2    -4.355289529302603
+    Attrib 3    -5.144841798397622
+    Attrib 4    2.7866351206156024
+    Attrib 5    0.9593926943126758
+    Attrib 6    0.44214283100682406
+    Attrib 7    2.4076323117927716
+    Attrib 8    -2.9276645596298403
+    Attrib 9    8.500596905323542
+    Attrib 10    -2.484085994364143
+    Attrib 11    -2.829200546771998
+    Attrib cluster    10.551825169496691
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    20.405508459716998
+    Attrib 1    36.638619101779014
+    Attrib 2    7.483397334246561
+    Attrib 3    10.266585933623782
+    Attrib 4    -17.7722570198708
+    Attrib 5    -16.6313851912125
+    Attrib 6    10.53139207893389
+    Attrib 7    7.09291425380037
+    Attrib 8    3.911018645621929
+    Attrib 9    29.783843560668572
+    Attrib 10    -24.008835697268417
+    Attrib 11    1.4934061156394347
+    Attrib cluster    -16.55568732056153
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    1.1012554705555613
+    Attrib 1    15.801996020403031
+    Attrib 2    -0.9059805067797612
+    Attrib 3    -9.227395478583613
+    Attrib 4    6.873492284180686
+    Attrib 5    1.6018339227375935
+    Attrib 6    2.046325331794088
+    Attrib 7    -9.01538673386584
+    Attrib 8    -17.669320302601196
+    Attrib 9    15.891509053919624
+    Attrib 10    12.74526411511653
+    Attrib 11    0.8913650190040185
+    Attrib cluster    -6.713848280277255
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    28.213398411840608
+    Attrib 1    34.1248536675174
+    Attrib 2    7.914593887542722
+    Attrib 3    13.665220068973088
+    Attrib 4    -18.606440508312442
+    Attrib 5    2.655435592254074
+    Attrib 6    1.796448762062094
+    Attrib 7    -0.13252647918585944
+    Attrib 8    11.034730446024536
+    Attrib 9    -23.575410653395206
+    Attrib 10    7.54665956658335
+    Attrib 11    -0.22846898367885493
+    Attrib cluster    1.565159409291366
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    7.105637884635792
+    Attrib 1    27.288015158650786
+    Attrib 2    -6.979238596417538
+    Attrib 3    6.337649116674415
+    Attrib 4    -7.931733658340997
+    Attrib 5    -4.249608590708104
+    Attrib 6    -8.430788211899715
+    Attrib 7    5.367681943121658
+    Attrib 8    -12.064781172450191
+    Attrib 9    16.22832652915215
+    Attrib 10    12.470398285285706
+    Attrib 11    0.5270453283374718
+    Attrib cluster    -13.514975829987375
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Time taken to build model: 32.82 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances       11269               97.5671 %
+Incorrectly Classified Instances       281                2.4329 %
+Kappa statistic                          0.9443
+Mean absolute error                      0.0278
+Root mean squared error                  0.1453
+Relative absolute error                  6.4578 %
+Root relative squared error             31.2998 %
+Total Number of Instances            11550     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.985     0.029      0.941     0.985     0.962      0.995    0
+                 0.971     0.015      0.993     0.971     0.982      0.995    1
+Weighted Avg.    0.976     0.019      0.976     0.976     0.976      0.995
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 3575   55 |    a = 0
+  226 7694 |    b = 1
+

@@ -1,0 +1,1 @@
+http://blog.damiles.com/?p=93 - basic OCR using open cv

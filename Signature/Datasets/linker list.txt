@@ -1,0 +1,13 @@
+highgui200d.lib
+cv200d.lib
+cvaux200d.lib
+cxcore200d.lib
+cxts200d.lib
+ml200d.lib
+
+cv200.lib
+cvaux200.lib
+cxcore200.lib
+cxts200.lib
+highgui200.lib
+ml200.lib

@@ -1,0 +1,53 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     TRAIN_1-weka.filters.unsupervised.attribute.NumericToNominal-Rlast
+Instances:    25560
+Attributes:   12
+              entropy
+              gray level threshold
+              no of black pixels
+              no of interior contours
+              no of exterior contours
+              no vertical slope components
+              no horizontal slope components
+              no positive slope components
+              no negative slope components
+              slant
+              height
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances       20102               94.3756 %
+Incorrectly Classified Instances      1198                5.6244 %
+Kappa statistic                          0.8728
+Mean absolute error                      0.0563
+Root mean squared error                  0.2371
+Relative absolute error                 12.8487 %
+Root relative squared error             50.6752 %
+Total Number of Instances            21300     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.932     0.05       0.898     0.932     0.915      0.941    0
+                 0.95      0.068      0.967     0.95      0.958      0.941    1
+Weighted Avg.    0.944     0.063      0.945     0.944     0.944      0.941
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  6429   471 |     a = 0
+   727 13673 |     b = 1
+

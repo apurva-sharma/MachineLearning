@@ -1,0 +1,18 @@
+@relation parthsigtest-weka.filters.unsupervised.attribute.NumericToNominal-Rlast
+
+@attribute entropy numeric
+@attribute 'gray level threshold' numeric
+@attribute 'no of black pixels' numeric
+@attribute 'no of interior contours' numeric
+@attribute 'no of exterior contours' numeric
+@attribute 'no vertical slope components' numeric
+@attribute 'no horizontal slope components' numeric
+@attribute 'no positive slope components' numeric
+@attribute 'no negative slope components' numeric
+@attribute slant numeric
+@attribute height numeric
+@attribute class {0,1}
+
+@data
+0.048559,2,331322,10462,6073,0.014809,0.018597,0.015105,0.018301,0.002543,0,0
+0.049237,2,155132,6855,6249,0.010646,0.014904,0.010821,0.014729,0.008486,0,1

@@ -1,0 +1,3 @@
+entropy,gray level threshold,no of black pixels,no of interior contours,no of exterior contours,no vertical slope components,no horizontal slope components,no positive slope components,no negative slope components,slant,height,class
+0.048559,2,331322,10462,6073,0.014809,0.018597,0.015105,0.018301,0.002543,0,1
+0.049237,2,155132,6855,6249,0.010646,0.014904,0.010821,0.014729,0.008486,0,1

@@ -1,0 +1,180 @@
+
+Options: -L 0.3 -M 0.0 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    7.759882968888013
+    Node 2    -12.578176519192246
+    Node 3    -6.107468814940797
+    Node 4    -5.236681318200896
+    Node 5    -5.26998785263627
+    Node 6    -3.9406797636625277
+    Node 7    -10.421724232032805
+    Node 8    -4.181494052597617
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -7.759882951151623
+    Node 2    12.578176394394443
+    Node 3    6.107468810115064
+    Node 4    5.236681309952889
+    Node 5    5.269987836094531
+    Node 6    3.9406797600662897
+    Node 7    10.42172423499741
+    Node 8    4.18149404579323
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    13.37897546172721
+    Attrib entropy    23.621254954520555
+    Attrib gray level threshold    -13.44270959611115
+    Attrib no of black pixels    -3.1401755024727778
+    Attrib no of interior contours    1.9685962165974478
+    Attrib no of exterior contours    1.6643103076500452
+    Attrib no vertical slope components    3.3162470621652633
+    Attrib no horizontal slope components    -3.8804800869205827
+    Attrib no positive slope components    1.2885296637461698
+    Attrib no negative slope components    18.661723945824672
+    Attrib slant    -7.661025567159142
+    Attrib height    2.432266839889149
+    Attrib Cluster    -0.3213559629898089
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    13.389168920852338
+    Attrib entropy    39.050494331889
+    Attrib gray level threshold    9.977880884979047
+    Attrib no of black pixels    5.734724455405484
+    Attrib no of interior contours    -22.566203009556077
+    Attrib no of exterior contours    -14.38938729662304
+    Attrib no vertical slope components    3.7565832606677128
+    Attrib no horizontal slope components    3.8349885755428206
+    Attrib no positive slope components    0.06870087760740297
+    Attrib no negative slope components    -2.9586388313519394
+    Attrib slant    4.118211981583661
+    Attrib height    -2.246854147075667
+    Attrib Cluster    0.8051523188926524
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    6.359351523575714
+    Attrib entropy    17.849480503668268
+    Attrib gray level threshold    1.478862013453402
+    Attrib no of black pixels    2.9682214533002487
+    Attrib no of interior contours    2.5481741006032275
+    Attrib no of exterior contours    1.270340222790361
+    Attrib no vertical slope components    5.951100638140948
+    Attrib no horizontal slope components    -6.156755817367868
+    Attrib no positive slope components    -17.524845085250274
+    Attrib no negative slope components    22.661321950428626
+    Attrib slant    1.4612057050404166
+    Attrib height    -1.516715337422461
+    Attrib Cluster    -17.324184602019255
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    6.325084650321965
+    Attrib entropy    34.196054107508566
+    Attrib gray level threshold    8.1098375074752
+    Attrib no of black pixels    10.061270042286726
+    Attrib no of interior contours    -30.52149963599606
+    Attrib no of exterior contours    -12.49307358171086
+    Attrib no vertical slope components    4.074564183894732
+    Attrib no horizontal slope components    -0.8267619766696244
+    Attrib no positive slope components    7.572172624425234
+    Attrib no negative slope components    0.48598427733924043
+    Attrib slant    -7.643539134125325
+    Attrib height    -5.082189769058086
+    Attrib Cluster    -0.12798844549253308
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.1733730905322083
+    Attrib entropy    32.1966144507259
+    Attrib gray level threshold    10.84937158499522
+    Attrib no of black pixels    5.344497846490758
+    Attrib no of interior contours    -35.657519560739104
+    Attrib no of exterior contours    -4.41467291393859
+    Attrib no vertical slope components    20.646460082123138
+    Attrib no horizontal slope components    -11.946321922760129
+    Attrib no positive slope components    1.3241262581171271
+    Attrib no negative slope components    4.297263976791971
+    Attrib slant    -17.715097762606092
+    Attrib height    5.118855592901132
+    Attrib Cluster    -0.2532017891606111
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    6.045533632357507
+    Attrib entropy    17.199440545037152
+    Attrib gray level threshold    0.23793480262275074
+    Attrib no of black pixels    -9.20357710342099
+    Attrib no of interior contours    8.259998189890643
+    Attrib no of exterior contours    6.78698689262638
+    Attrib no vertical slope components    4.567228628970623
+    Attrib no horizontal slope components    -7.572258126666265
+    Attrib no positive slope components    -5.461685819156925
+    Attrib no negative slope components    14.700819012452516
+    Attrib slant    7.059536952807983
+    Attrib height    -0.62644308842895
+    Attrib Cluster    -5.1133940946304905
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    10.038373605482889
+    Attrib entropy    30.94678481774145
+    Attrib gray level threshold    -1.6677246888119264
+    Attrib no of black pixels    6.022910603160914
+    Attrib no of interior contours    -19.638818699242226
+    Attrib no of exterior contours    -14.559499368375185
+    Attrib no vertical slope components    -14.891360255965905
+    Attrib no horizontal slope components    13.922391341905
+    Attrib no positive slope components    -8.487092404101428
+    Attrib no negative slope components    27.02989663681768
+    Attrib slant    0.2067677443362862
+    Attrib height    1.1165261783672769
+    Attrib Cluster    -0.06585466842814852
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Time taken to build model: 52.5 seconds
+Time taken to test model on training data: 0.34 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances       25201               98.5955 %
+Incorrectly Classified Instances       359                1.4045 %
+Kappa statistic                          0.9681
+Mean absolute error                      0.0226
+Root mean squared error                  0.1068
+Relative absolute error                  5.1484 %
+Root relative squared error             22.8196 %
+Coverage of cases (0.95 level)          99.6909 %
+Mean rel. region size (0.95 level)      53.6424 %
+Total Number of Instances            25560     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  8175   105 |     a = 0
+   254 17026 |     b = 1
+
+
+=== Error on test data ===
+
+Correctly Classified Instances       20607               96.7465 %
+Incorrectly Classified Instances       693                3.2535 %
+Kappa statistic                          0.9258
+Mean absolute error                      0.0391
+Root mean squared error                  0.1652
+Relative absolute error                  8.9254 %
+Root relative squared error             35.2979 %
+Coverage of cases (0.95 level)          98.3568 %
+Mean rel. region size (0.95 level)      53.7066 %
+Total Number of Instances            21300     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  6561   339 |     a = 0
+   354 14046 |     b = 1
+

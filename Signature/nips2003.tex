@@ -1,0 +1,263 @@
+\documentclass{article}
+\usepackage{nips2003e,times}
+
+\title{Formatting Instructions for NIPS*2003}
+
+\author{
+Urjit Singh Bhatia\thanks{ Use footnote for providing further information
+about author (webpage, alternative address)---\emph{not} for acknowledging
+funding agencies.} \\
+Department of Computer Science\\
+Cranberry-Lemon University\\
+Pittsburgh, PA 15213 \\
+\texttt{hippo@cs.cranberry-lemon.edu} \\
+\And
+Coauthor \\
+Affiliation \\
+Address \\
+\texttt{email} \\
+\AND
+Coauthor \\
+Affiliation \\
+Address \\
+\texttt{email} \\
+\And
+Coauthor \\
+Affiliation \\
+Address \\
+\texttt{email} \\
+\And
+Coauthor \\
+Affiliation \\
+Address \\
+\texttt{email} \\
+(if needed)\\
+}
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to \LaTeX{} to determine where to break
+% the lines. Using \AND forces a linebreak at that point. So, if \LaTeX{}
+% puts 3 of 4 authors names on the first line, and the last on the second
+% line, try using \AND instead of \And before the third author name.
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The abstract paragraph should be indented 1/2~inch (3~picas) on both left and
+right-hand margins. Use 10~point type, with a vertical spacing of 11~points.
+The word \textbf{Abstract} must be centered, bold, and in point size 12. Two
+line spaces precede the abstract. The abstract must be limited to one
+paragraph.
+\end{abstract}
+
+\section{Submission of papers to NIPS*2003}
+
+This year we require electronic submissions. Please read carefully the
+instructions below, and follow them faithfully.
+
+Papers to be submitted to NIPS*2003 must be prepared according to the
+instructions presented here. Papers may be only up to 8 pages long, including
+figures and references. This is a strict upper bound. Papers that exceed 8
+pages will not be reviewed, or in any other way considered for presentation at
+the conference.
+
+Authors are required to use the NIPS \LaTeX{} style files obtainable at the
+NIPS website as indicated below. Please make sure you use the current ones and
+not previous versions.
+
+You must enter your submission in the electronic submission form available at
+the NIPS website listed below. You will be asked to enter paper title, name of
+all authors, category, oral/poster preference, and data about the contact
+author (name, full address, telephone, fax, and email). You will need to
+upload an electronic (postscript or pdf) version of your paper.
+
+\textbf{THE SUBMISSION DEADLINE IS JUNE 6, 2003. SUBMISSIONS MUST BE LOGGED BY
+MIDNIGHT, JUNE 6, 2003, PACIFIC DAYLIGHT TIME}
+
+\subsection{Retrieval of style files}
+
+The style files for NIPS, the Electronic Submission Page, and other
+conference information are available on the World Wide Web at
+\begin{center}
+   http://www.nips.cc/
+\end{center}
+The file \verb+nips2003.ps+ (or \verb+nips2003.pdf+) contains these 
+instructions and illustrates the
+various formatting requirements your NIPS paper must satisfy. \LaTeX{}
+users can choose between two style files:
+\verb+nips2003.sty+ (to be used with \LaTeX{} version 2.09) and
+\verb+nips2003e.sty+ (to be used with \LaTeX{}2e). The file
+\verb+nips2003.tex+ may be used as a ``shell'' for writing your paper. All you
+have to do is replace the author, title, abstract, and text of the paper with
+your own. The file
+\verb+nips2003.rtf+ is provided as a shell for MS Word users.
+
+The formatting instructions contained in these style files are summarized in
+sections \ref{gen_inst}, \ref{headings}, and \ref{others} below.
+
+\subsection{Categories for paper submission}
+Your NIPS paper can be submitted to any of the following ten categories:
+
+\begin{verbatim}
+Algorithms and Architectures
+Applications
+Brain Imaging
+Cognitive Science and Artificial Intelligence
+Control and Reinforcement Learning
+Emerging Technologies
+Learning Theory
+Neuroscience
+Speech and Signal Processing
+Visual Processing
+\end{verbatim}
+
+A description of each category can be found in the call for papers at
+the NIPS website (http://www.nips.cc/). Additionally, you have to
+select from a list of keywords that best characterize your work, when
+submitting the electronic version of your paper.
+
+\section{General formatting instructions}
+\label{gen_inst}
+
+The text must be confined within a rectangle 5~inches (30~picas) wide and
+8.25~inches (49.5~picas) long. The left margin is 1.75~inches (10.5~picas).
+Use 10~point type with a vertical spacing of 11~points. Times New Roman is the
+preferred typeface throughout. Paragraphs are separated by 1/2~line space,
+with no indentation.
+
+Paper title is 17~point, initial caps/lower case, bold, centered between
+2~horizontal rules. Top rule is 4~points thick and bottom rule is 1~point
+thick. Allow 1/4~inch space above and below title to rules. The first rule is
+1.1~inches (6.6~picas) from the top of the page. Subsequent pages should start
+at 1~inch (6~picas) from the top of the page.
+
+Authors' names are set in boldface, and each name is centered above the
+corresponding address. The lead author's name is to be listed first
+(left-most), and the co-authors' names (if different address) are set to
+follow. If only one co-author, list both author and co-author side by side.
+
+Please pay special attention to the instructions in section \ref{others}
+regarding figures, tables, acknowledgments, and references.
+
+\section{Headings: first level}
+\label{headings}
+
+First level headings are lower case (except for first word and proper nouns),
+flush left, bold and in point size 12. One line space before the first level
+heading and 1/2~line space after the first level heading.
+
+\subsection{Headings: second level}
+
+Second level headings are lower case (except for first word and proper nouns),
+flush left, bold and in point size 10. One line space before the second level
+heading and 1/2~line space after the second level heading.
+
+\subsubsection{Headings: third level}
+
+Third level headings are lower case (except for first word and proper nouns),
+flush left, bold and in point size 10. One line space before the third level
+heading and 1/2~line space after the third level heading.
+
+\section{Citations, figures, tables, references}
+\label{others}
+
+These instructions apply to everyone, regardless of the formatter being used.
+
+\subsection{Citations within the text}
+
+Citations within the text should be numbered consecutively. The corresponding
+number is to appear enclosed in square brackets, such as [1] or [2]-[5]. The
+corresponding references are to be listed in the same order at the end of the
+paper, in the \textbf{References} section. (Note: the standard
+\textsc{Bib\TeX} style \texttt{unsrt} produces this.) As to the format of the
+references themselves, any style is acceptable as long as it is used
+consistently.
+
+\subsection{Footnotes}
+
+Indicate footnotes with a number\footnote{Sample of the first footnote} in the
+text. Place the footnotes at the bottom of the page on which they appear.
+Precede the footnote with a horizontal rule of 2~inches
+(12~picas).\footnote{Sample of the second footnote}
+
+\subsection{Figures}
+
+All artwork must be neat, clean, and legible. Lines should be dark enough for
+purposes of reproduction; art work should not be hand-drawn. Figure number and
+caption always appear after the figure. Place one line space before the figure
+caption, and one line space after the figure. The figure caption is lower case
+(except for first word and proper nouns); figures are numbered consecutively.
+
+Make sure the figure caption does not get separated from the figure.
+Leave sufficient space to avoid splitting the figure and figure caption.
+\begin{figure}[h]
+\begin{center}
+%\framebox[4.0in]{$\;$}
+\fbox{\rule[-.5cm]{0cm}{4cm} \rule[-.5cm]{4cm}{0cm}}
+\end{center}
+\caption{Sample figure caption}
+\end{figure}
+
+\subsection{Tables}
+
+All tables must be centered, neat, clean and legible. Do not use hand-drawn
+tables. Table number and title always appear before the table. See
+Table~\ref{sample-table}.
+
+Place one line space before the table title, one line space after the table
+title, and one line space after the table. The table title must be lower case
+(except for first word and proper nouns); tables are numbered consecutively.
+
+\begin{table}[t]
+\caption{Sample table title}
+\label{sample-table}
+\begin{center}
+\begin{tabular}{ll}
+\multicolumn{1}{c}{\bf PART}  &\multicolumn{1}{c}{\bf DESCRIPTION}
+\\ \hline \\
+Dendrite         &Input terminal \\
+Axon             &Output terminal \\
+Soma             &Cell body (contains cell nucleus) \\
+\end{tabular}
+\end{center}
+\end{table}
+
+\section{Final instructions}
+Do not change any aspects of the formatting parameters in the style files. In
+particular: do not modify the width or length of the rectangle the text should
+fit into, and do not change font sizes (except perhaps in the
+\textbf{References} section; see below). Leave pages unnumbered.
+
+\subsubsection*{Acknowledgments}
+
+Use unnumbered third level headings for the acknowledgments. All
+acknowledgments go at the end of the paper.
+
+\subsubsection*{References}
+
+References follow the acknowledgments. Use unnumbered third level heading for
+the references. Any choice of citation style is acceptable as long as you are
+consistent. It is permissible to reduce the font size to `small' (9-point) 
+when listing the references.
+
+\small{
+[1] Alexander, J.A. \& Mozer, M.C. (1995) Template-based algorithms
+for connectionist rule extraction. In G. Tesauro, D. S. Touretzky
+and T.K. Leen (eds.), {\it Advances in Neural Information Processing
+Systems 7}, pp. 609-616. Cambridge, MA: MIT Press.
+
+[2] Bower, J.M. \& Beeman, D. (1995) {\it The Book of GENESIS: Exploring
+Realistic Neural Models with the GEneral NEural SImulation System.}
+New York: TELOS/Springer-Verlag.
+
+[3] Hasselmo, M.E., Schnell, E. \& Barkai, E. (1995) Dynamics of learning
+and recall at excitatory recurrent synapses and cholinergic modulation
+in rat hippocampal region CA3. {\it Journal of Neuroscience}
+{\bf 15}(7):5249-5262.
+}
+
+\end{document}

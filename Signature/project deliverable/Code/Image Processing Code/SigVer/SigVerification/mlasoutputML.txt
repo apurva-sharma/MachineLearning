@@ -1,0 +1,23 @@
+min: 0.000000, max: 13270.000000
+the entropy is: 3.137682
+Threshold is : 187.000000
+total no of pixels is : 130380
+no of black pixels is : 9327
+
+ BB: 0,30 - 568,110
+
+ BB: 0,30 - 568,110
+
+ exteriors 9interiors 60
+
+ vertical 1497
+
+ horizontals 517
+
+ positives 2015
+
+ negatives 1584
+
+ slant 0.144031
+
+ height 110

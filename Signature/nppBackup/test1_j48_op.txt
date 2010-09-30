@@ -1,0 +1,416 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     TRAIN_1-weka.filters.unsupervised.attribute.NumericToNominal-Rlast
+Instances:    25560
+Attributes:   12
+              entropy
+              gray level threshold
+              no of black pixels
+              no of interior contours
+              no of exterior contours
+              no vertical slope components
+              no horizontal slope components
+              no positive slope components
+              no negative slope components
+              slant
+              height
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+entropy <= 0.177771
+|   no vertical slope components <= 0.079511
+|   |   entropy <= 0.106069
+|   |   |   no of interior contours <= 5
+|   |   |   |   gray level threshold <= 12: 0 (2538.0/3.0)
+|   |   |   |   gray level threshold > 12
+|   |   |   |   |   no vertical slope components <= 0.04024: 0 (35.0)
+|   |   |   |   |   no vertical slope components > 0.04024: 1 (5.0)
+|   |   |   no of interior contours > 5
+|   |   |   |   no of interior contours <= 45
+|   |   |   |   |   gray level threshold <= 10
+|   |   |   |   |   |   slant <= 0.195684
+|   |   |   |   |   |   |   no of interior contours <= 16
+|   |   |   |   |   |   |   |   no vertical slope components <= 0.049455
+|   |   |   |   |   |   |   |   |   no negative slope components <= 0.021445: 0 (1660.0/8.0)
+|   |   |   |   |   |   |   |   |   no negative slope components > 0.021445
+|   |   |   |   |   |   |   |   |   |   no of black pixels <= 1566: 0 (209.0/1.0)
+|   |   |   |   |   |   |   |   |   |   no of black pixels > 1566
+|   |   |   |   |   |   |   |   |   |   |   no horizontal slope components <= 0.027113: 0 (76.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   no horizontal slope components > 0.027113
+|   |   |   |   |   |   |   |   |   |   |   |   no negative slope components <= 0.032208
+|   |   |   |   |   |   |   |   |   |   |   |   |   slant <= 0.099622
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   no of interior contours <= 8: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   no of interior contours > 8: 1 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   slant > 0.099622: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   no negative slope components > 0.032208: 1 (4.0)
+|   |   |   |   |   |   |   |   no vertical slope components > 0.049455
+|   |   |   |   |   |   |   |   |   gray level threshold <= 3
+|   |   |   |   |   |   |   |   |   |   entropy <= 0.084245: 0 (78.0)
+|   |   |   |   |   |   |   |   |   |   entropy > 0.084245
+|   |   |   |   |   |   |   |   |   |   |   no of interior contours <= 13: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   no of interior contours > 13: 1 (2.0)
+|   |   |   |   |   |   |   |   |   gray level threshold > 3
+|   |   |   |   |   |   |   |   |   |   no horizontal slope components <= 0.026883
+|   |   |   |   |   |   |   |   |   |   |   gray level threshold <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   no vertical slope components <= 0.063493: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   no vertical slope components > 0.063493: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   gray level threshold > 7: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   no horizontal slope components > 0.026883
+|   |   |   |   |   |   |   |   |   |   |   no of black pixels <= 1846: 0 (42.0)
+|   |   |   |   |   |   |   |   |   |   |   no of black pixels > 1846
+|   |   |   |   |   |   |   |   |   |   |   |   no of black pixels <= 3552
+|   |   |   |   |   |   |   |   |   |   |   |   |   gray level threshold <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   no positive slope components <= 0.017883: 1 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   no positive slope components > 0.017883: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   gray level threshold > 7: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   no of black pixels > 3552: 0 (8.0)
+|   |   |   |   |   |   |   no of interior contours > 16
+|   |   |   |   |   |   |   |   no negative slope components <= 0.014692
+|   |   |   |   |   |   |   |   |   no vertical slope components <= 0.049539: 0 (337.0/7.0)
+|   |   |   |   |   |   |   |   |   no vertical slope components > 0.049539
+|   |   |   |   |   |   |   |   |   |   no horizontal slope components <= 0.027612
+|   |   |   |   |   |   |   |   |   |   |   gray level threshold <= 3: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   gray level threshold > 3: 1 (6.0)
+|   |   |   |   |   |   |   |   |   |   no horizontal slope components > 0.027612
+|   |   |   |   |   |   |   |   |   |   |   slant <= 0.01288
+|   |   |   |   |   |   |   |   |   |   |   |   entropy <= 0.053226: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   entropy > 0.053226: 1 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   slant > 0.01288: 0 (36.0)
+|   |   |   |   |   |   |   |   no negative slope components > 0.014692
+|   |   |   |   |   |   |   |   |   gray level threshold <= 1
+|   |   |   |   |   |   |   |   |   |   slant <= 0.022949: 1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   slant > 0.022949: 0 (41.0)
+|   |   |   |   |   |   |   |   |   gray level threshold > 1
+|   |   |   |   |   |   |   |   |   |   no positive slope components <= 0.020615
+|   |   |   |   |   |   |   |   |   |   |   no vertical slope components <= 0.033211
+|   |   |   |   |   |   |   |   |   |   |   |   no of interior contours <= 28
+|   |   |   |   |   |   |   |   |   |   |   |   |   no negative slope components <= 0.02163
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   no positive slope components <= 0.013485: 0 (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   no positive slope components > 0.013485
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   no vertical slope components <= 0.016345: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   no vertical slope components > 0.016345: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   no negative slope components > 0.02163
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   no of exterior contours <= 3: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   no of exterior contours > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   no horizontal slope components <= 0.035339
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   no of exterior contours <= 23: 1 (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   no of exterior contours > 23: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   no horizontal slope components > 0.035339: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   no of interior contours > 28
+|   |   |   |   |   |   |   |   |   |   |   |   |   slant <= 0.062186: 1 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   slant > 0.062186: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   no vertical slope components > 0.033211
+|   |   |   |   |   |   |   |   |   |   |   |   no of exterior contours <= 3: 1 (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   no of exterior contours > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   no of exterior contours <= 4: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   no of exterior contours > 4: 1 (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   no positive slope components > 0.020615
+|   |   |   |   |   |   |   |   |   |   |   slant <= 0.042729: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   slant > 0.042729
+|   |   |   |   |   |   |   |   |   |   |   |   entropy <= 0.066808: 0 (38.0)
+|   |   |   |   |   |   |   |   |   |   |   |   entropy > 0.066808
+|   |   |   |   |   |   |   |   |   |   |   |   |   no of black pixels <= 2128: 0 (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   no of black pixels > 2128
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   no negative slope components <= 0.023782: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   no negative slope components > 0.023782: 1 (4.0)
+|   |   |   |   |   |   slant > 0.195684
+|   |   |   |   |   |   |   slant <= 0.238181
+|   |   |   |   |   |   |   |   no of black pixels <= 3003: 0 (11.0)
+|   |   |   |   |   |   |   |   no of black pixels > 3003: 1 (2.0)
+|   |   |   |   |   |   |   slant > 0.238181: 1 (12.0)
+|   |   |   |   |   gray level threshold > 10
+|   |   |   |   |   |   gray level threshold <= 25
+|   |   |   |   |   |   |   no vertical slope components <= 0.044006
+|   |   |   |   |   |   |   |   no of interior contours <= 29
+|   |   |   |   |   |   |   |   |   entropy <= 0.094253: 0 (77.0/4.0)
+|   |   |   |   |   |   |   |   |   entropy > 0.094253
+|   |   |   |   |   |   |   |   |   |   gray level threshold <= 23: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   gray level threshold > 23: 0 (2.0)
+|   |   |   |   |   |   |   |   no of interior contours > 29: 1 (7.0/1.0)
+|   |   |   |   |   |   |   no vertical slope components > 0.044006
+|   |   |   |   |   |   |   |   no of black pixels <= 621: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   no of black pixels > 621
+|   |   |   |   |   |   |   |   |   no horizontal slope components <= 0.054499: 1 (15.0)
+|   |   |   |   |   |   |   |   |   no horizontal slope components > 0.054499
+|   |   |   |   |   |   |   |   |   |   no vertical slope components <= 0.065194: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   no vertical slope components > 0.065194: 1 (2.0)
+|   |   |   |   |   |   gray level threshold > 25: 1 (18.0/1.0)
+|   |   |   |   no of interior contours > 45
+|   |   |   |   |   no negative slope components <= 0.148493: 0 (1132.0)
+|   |   |   |   |   no negative slope components > 0.148493
+|   |   |   |   |   |   no horizontal slope components <= 0.050457
+|   |   |   |   |   |   |   height <= 161
+|   |   |   |   |   |   |   |   entropy <= 0.065952: 0 (4.0)
+|   |   |   |   |   |   |   |   entropy > 0.065952: 1 (3.0/1.0)
+|   |   |   |   |   |   |   height > 161: 1 (4.0)
+|   |   |   |   |   |   no horizontal slope components > 0.050457: 0 (103.0)
+|   |   entropy > 0.106069
+|   |   |   no negative slope components <= 0.01663
+|   |   |   |   gray level threshold <= 8
+|   |   |   |   |   no vertical slope components <= 0.028408
+|   |   |   |   |   |   no horizontal slope components <= 0.02472: 0 (456.0/8.0)
+|   |   |   |   |   |   no horizontal slope components > 0.02472
+|   |   |   |   |   |   |   height <= 11
+|   |   |   |   |   |   |   |   gray level threshold <= 2: 0 (4.0)
+|   |   |   |   |   |   |   |   gray level threshold > 2: 1 (8.0/1.0)
+|   |   |   |   |   |   |   height > 11: 0 (36.0/3.0)
+|   |   |   |   |   no vertical slope components > 0.028408: 0 (167.0/32.0)
+|   |   |   |   gray level threshold > 8
+|   |   |   |   |   no vertical slope components <= 0.040737
+|   |   |   |   |   |   entropy <= 0.137396
+|   |   |   |   |   |   |   no positive slope components <= 0.031897: 0 (35.0/1.0)
+|   |   |   |   |   |   |   no positive slope components > 0.031897: 1 (2.0)
+|   |   |   |   |   |   entropy > 0.137396
+|   |   |   |   |   |   |   no horizontal slope components <= 0.005252: 0 (5.0)
+|   |   |   |   |   |   |   no horizontal slope components > 0.005252
+|   |   |   |   |   |   |   |   no positive slope components <= 0.012553
+|   |   |   |   |   |   |   |   |   no vertical slope components <= 0.025823: 0 (5.0)
+|   |   |   |   |   |   |   |   |   no vertical slope components > 0.025823: 1 (4.0/1.0)
+|   |   |   |   |   |   |   |   no positive slope components > 0.012553: 1 (12.0/1.0)
+|   |   |   |   |   no vertical slope components > 0.040737: 1 (15.0/2.0)
+|   |   |   no negative slope components > 0.01663
+|   |   |   |   gray level threshold <= 39
+|   |   |   |   |   gray level threshold <= 7
+|   |   |   |   |   |   slant <= 0.199953
+|   |   |   |   |   |   |   no of interior contours <= 12
+|   |   |   |   |   |   |   |   no horizontal slope components <= 0.035148
+|   |   |   |   |   |   |   |   |   no of interior contours <= 5: 0 (92.0/5.0)
+|   |   |   |   |   |   |   |   |   no of interior contours > 5
+|   |   |   |   |   |   |   |   |   |   no negative slope components <= 0.033776
+|   |   |   |   |   |   |   |   |   |   |   slant <= 0.030445: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   slant > 0.030445: 0 (73.0/3.0)
+|   |   |   |   |   |   |   |   |   |   no negative slope components > 0.033776
+|   |   |   |   |   |   |   |   |   |   |   no of exterior contours <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   no of interior contours <= 6: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   no of interior contours > 6: 0 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   no of exterior contours > 4: 1 (6.0)
+|   |   |   |   |   |   |   |   no horizontal slope components > 0.035148
+|   |   |   |   |   |   |   |   |   no of exterior contours <= 3
+|   |   |   |   |   |   |   |   |   |   no vertical slope components <= 0.025074: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   no vertical slope components > 0.025074: 1 (10.0/1.0)
+|   |   |   |   |   |   |   |   |   no of exterior contours > 3
+|   |   |   |   |   |   |   |   |   |   gray level threshold <= 1
+|   |   |   |   |   |   |   |   |   |   |   entropy <= 0.113764: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   entropy > 0.113764: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   gray level threshold > 1: 0 (10.0)
+|   |   |   |   |   |   |   no of interior contours > 12
+|   |   |   |   |   |   |   |   no of black pixels <= 970
+|   |   |   |   |   |   |   |   |   no positive slope components <= 0.016176: 1 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   no positive slope components > 0.016176
+|   |   |   |   |   |   |   |   |   |   no vertical slope components <= 0.043166: 0 (22.0)
+|   |   |   |   |   |   |   |   |   |   no vertical slope components > 0.043166
+|   |   |   |   |   |   |   |   |   |   |   no of black pixels <= 498: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   no of black pixels > 498: 1 (3.0)
+|   |   |   |   |   |   |   |   no of black pixels > 970
+|   |   |   |   |   |   |   |   |   no of exterior contours <= 6
+|   |   |   |   |   |   |   |   |   |   no of black pixels <= 4188
+|   |   |   |   |   |   |   |   |   |   |   no negative slope components <= 0.028801
+|   |   |   |   |   |   |   |   |   |   |   |   gray level threshold <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   no vertical slope components <= 0.050036: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   no vertical slope components > 0.050036: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   gray level threshold > 2: 1 (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   no negative slope components > 0.028801: 1 (27.0)
+|   |   |   |   |   |   |   |   |   |   no of black pixels > 4188: 0 (3.0)
+|   |   |   |   |   |   |   |   |   no of exterior contours > 6
+|   |   |   |   |   |   |   |   |   |   slant <= 0.04602: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   slant > 0.04602: 0 (8.0)
+|   |   |   |   |   |   slant > 0.199953: 1 (20.0/1.0)
+|   |   |   |   |   gray level threshold > 7
+|   |   |   |   |   |   no positive slope components <= 0.019647
+|   |   |   |   |   |   |   no negative slope components <= 0.021947
+|   |   |   |   |   |   |   |   no vertical slope components <= 0.011927: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   no vertical slope components > 0.011927: 1 (16.0/1.0)
+|   |   |   |   |   |   |   no negative slope components > 0.021947: 1 (52.0)
+|   |   |   |   |   |   no positive slope components > 0.019647
+|   |   |   |   |   |   |   slant <= 0.120466
+|   |   |   |   |   |   |   |   height <= 70
+|   |   |   |   |   |   |   |   |   gray level threshold <= 11
+|   |   |   |   |   |   |   |   |   |   no negative slope components <= 0.02149
+|   |   |   |   |   |   |   |   |   |   |   gray level threshold <= 8
+|   |   |   |   |   |   |   |   |   |   |   |   no of black pixels <= 804: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   no of black pixels > 804: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   gray level threshold > 8: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   no negative slope components > 0.02149: 0 (10.0)
+|   |   |   |   |   |   |   |   |   gray level threshold > 11: 1 (3.0)
+|   |   |   |   |   |   |   |   height > 70: 0 (10.0)
+|   |   |   |   |   |   |   slant > 0.120466
+|   |   |   |   |   |   |   |   no positive slope components <= 0.036517: 1 (14.0)
+|   |   |   |   |   |   |   |   no positive slope components > 0.036517
+|   |   |   |   |   |   |   |   |   no positive slope components <= 0.079172
+|   |   |   |   |   |   |   |   |   |   height <= 24: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   height > 24
+|   |   |   |   |   |   |   |   |   |   |   height <= 133: 0 (10.0)
+|   |   |   |   |   |   |   |   |   |   |   height > 133
+|   |   |   |   |   |   |   |   |   |   |   |   entropy <= 0.156626: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   entropy > 0.156626: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   no positive slope components > 0.079172: 1 (4.0)
+|   |   |   |   gray level threshold > 39
+|   |   |   |   |   no horizontal slope components <= 0.03652
+|   |   |   |   |   |   no positive slope components <= 0.045795: 0 (25.0)
+|   |   |   |   |   |   no positive slope components > 0.045795: 1 (4.0)
+|   |   |   |   |   no horizontal slope components > 0.03652: 0 (127.0)
+|   no vertical slope components > 0.079511
+|   |   gray level threshold <= 39
+|   |   |   entropy <= 0.089327
+|   |   |   |   gray level threshold <= 8
+|   |   |   |   |   no of interior contours <= 14
+|   |   |   |   |   |   gray level threshold <= 5: 0 (40.0)
+|   |   |   |   |   |   gray level threshold > 5
+|   |   |   |   |   |   |   no of exterior contours <= 7: 0 (7.0)
+|   |   |   |   |   |   |   no of exterior contours > 7: 1 (4.0/1.0)
+|   |   |   |   |   no of interior contours > 14
+|   |   |   |   |   |   no of black pixels <= 2731
+|   |   |   |   |   |   |   slant <= 0.052014
+|   |   |   |   |   |   |   |   no positive slope components <= 0.006308: 0 (3.0)
+|   |   |   |   |   |   |   |   no positive slope components > 0.006308: 1 (5.0)
+|   |   |   |   |   |   |   slant > 0.052014: 0 (11.0)
+|   |   |   |   |   |   no of black pixels > 2731: 1 (8.0)
+|   |   |   |   gray level threshold > 8
+|   |   |   |   |   gray level threshold <= 35
+|   |   |   |   |   |   no of exterior contours <= 2
+|   |   |   |   |   |   |   slant <= 0.068798: 0 (2.0)
+|   |   |   |   |   |   |   slant > 0.068798: 1 (4.0)
+|   |   |   |   |   |   no of exterior contours > 2: 1 (25.0)
+|   |   |   |   |   gray level threshold > 35
+|   |   |   |   |   |   no negative slope components <= 0.122816: 0 (16.0)
+|   |   |   |   |   |   no negative slope components > 0.122816: 1 (4.0)
+|   |   |   entropy > 0.089327
+|   |   |   |   height <= 176
+|   |   |   |   |   gray level threshold <= 6
+|   |   |   |   |   |   entropy <= 0.151143
+|   |   |   |   |   |   |   no of exterior contours <= 9
+|   |   |   |   |   |   |   |   no positive slope components <= 0.055386: 1 (16.0/2.0)
+|   |   |   |   |   |   |   |   no positive slope components > 0.055386: 0 (4.0)
+|   |   |   |   |   |   |   no of exterior contours > 9: 0 (4.0)
+|   |   |   |   |   |   entropy > 0.151143: 1 (17.0)
+|   |   |   |   |   gray level threshold > 6: 1 (157.0/1.0)
+|   |   |   |   height > 176
+|   |   |   |   |   entropy <= 0.13603: 0 (7.0)
+|   |   |   |   |   entropy > 0.13603: 1 (4.0)
+|   |   gray level threshold > 39
+|   |   |   no negative slope components <= 0.119934: 0 (338.0)
+|   |   |   no negative slope components > 0.119934
+|   |   |   |   entropy <= 0.141169
+|   |   |   |   |   no negative slope components <= 0.14001
+|   |   |   |   |   |   no of exterior contours <= 3029
+|   |   |   |   |   |   |   no of interior contours <= 8197: 0 (68.0/1.0)
+|   |   |   |   |   |   |   no of interior contours > 8197
+|   |   |   |   |   |   |   |   height <= 129: 1 (6.0)
+|   |   |   |   |   |   |   |   height > 129: 0 (9.0)
+|   |   |   |   |   |   no of exterior contours > 3029: 1 (9.0/1.0)
+|   |   |   |   |   no negative slope components > 0.14001
+|   |   |   |   |   |   no positive slope components <= 0.055756: 1 (25.0)
+|   |   |   |   |   |   no positive slope components > 0.055756
+|   |   |   |   |   |   |   no negative slope components <= 0.151713: 0 (11.0)
+|   |   |   |   |   |   |   no negative slope components > 0.151713: 1 (4.0)
+|   |   |   |   entropy > 0.141169: 1 (31.0/1.0)
+entropy > 0.177771
+|   entropy <= 0.25406
+|   |   no vertical slope components <= 0.023862
+|   |   |   no negative slope components <= 0.02024
+|   |   |   |   no of exterior contours <= 12
+|   |   |   |   |   gray level threshold <= 8
+|   |   |   |   |   |   gray level threshold <= 3: 0 (51.0/1.0)
+|   |   |   |   |   |   gray level threshold > 3
+|   |   |   |   |   |   |   no horizontal slope components <= 0.019623
+|   |   |   |   |   |   |   |   no of exterior contours <= 1
+|   |   |   |   |   |   |   |   |   slant <= 0.033241: 1 (2.0)
+|   |   |   |   |   |   |   |   |   slant > 0.033241: 0 (4.0)
+|   |   |   |   |   |   |   |   no of exterior contours > 1: 0 (21.0)
+|   |   |   |   |   |   |   no horizontal slope components > 0.019623
+|   |   |   |   |   |   |   |   no positive slope components <= 0.024215: 1 (4.0)
+|   |   |   |   |   |   |   |   no positive slope components > 0.024215: 0 (3.0)
+|   |   |   |   |   gray level threshold > 8
+|   |   |   |   |   |   entropy <= 0.211242: 0 (6.0)
+|   |   |   |   |   |   entropy > 0.211242
+|   |   |   |   |   |   |   no of exterior contours <= 5: 1 (11.0)
+|   |   |   |   |   |   |   no of exterior contours > 5: 0 (3.0/1.0)
+|   |   |   |   no of exterior contours > 12: 1 (7.0/1.0)
+|   |   |   no negative slope components > 0.02024
+|   |   |   |   entropy <= 0.216025
+|   |   |   |   |   no of interior contours <= 37
+|   |   |   |   |   |   height <= 21
+|   |   |   |   |   |   |   no of interior contours <= 10: 0 (4.0)
+|   |   |   |   |   |   |   no of interior contours > 10: 1 (5.0/1.0)
+|   |   |   |   |   |   height > 21: 1 (25.0)
+|   |   |   |   |   no of interior contours > 37: 0 (4.0)
+|   |   |   |   entropy > 0.216025: 1 (51.0)
+|   |   no vertical slope components > 0.023862
+|   |   |   gray level threshold <= 49
+|   |   |   |   gray level threshold <= 8
+|   |   |   |   |   no negative slope components <= 0.004467
+|   |   |   |   |   |   entropy <= 0.194076: 0 (7.0)
+|   |   |   |   |   |   entropy > 0.194076
+|   |   |   |   |   |   |   no positive slope components <= 0.008189: 0 (2.0)
+|   |   |   |   |   |   |   no positive slope components > 0.008189: 1 (11.0/1.0)
+|   |   |   |   |   no negative slope components > 0.004467
+|   |   |   |   |   |   no vertical slope components <= 0.06029
+|   |   |   |   |   |   |   gray level threshold <= 1
+|   |   |   |   |   |   |   |   no negative slope components <= 0.01931: 0 (6.0)
+|   |   |   |   |   |   |   |   no negative slope components > 0.01931: 1 (8.0)
+|   |   |   |   |   |   |   gray level threshold > 1: 1 (84.0/10.0)
+|   |   |   |   |   |   no vertical slope components > 0.06029: 1 (68.0/1.0)
+|   |   |   |   gray level threshold > 8
+|   |   |   |   |   height <= 118: 1 (360.0)
+|   |   |   |   |   height > 118
+|   |   |   |   |   |   slant <= 0.147551
+|   |   |   |   |   |   |   no of exterior contours <= 774: 1 (34.0/1.0)
+|   |   |   |   |   |   |   no of exterior contours > 774: 0 (4.0)
+|   |   |   |   |   |   slant > 0.147551: 1 (87.0)
+|   |   |   gray level threshold > 49
+|   |   |   |   no negative slope components <= 0.116557: 0 (23.0/2.0)
+|   |   |   |   no negative slope components > 0.116557
+|   |   |   |   |   no vertical slope components <= 0.077082
+|   |   |   |   |   |   no negative slope components <= 0.157552: 0 (7.0)
+|   |   |   |   |   |   no negative slope components > 0.157552: 1 (2.0)
+|   |   |   |   |   no vertical slope components > 0.077082: 1 (36.0)
+|   entropy > 0.25406
+|   |   entropy <= 0.316699
+|   |   |   no vertical slope components <= 0.006039
+|   |   |   |   no negative slope components <= 0.014708
+|   |   |   |   |   gray level threshold <= 7: 0 (5.0)
+|   |   |   |   |   gray level threshold > 7
+|   |   |   |   |   |   no horizontal slope components <= 0.017622: 0 (3.0/1.0)
+|   |   |   |   |   |   no horizontal slope components > 0.017622: 1 (5.0)
+|   |   |   |   no negative slope components > 0.014708: 1 (33.0)
+|   |   |   no vertical slope components > 0.006039: 1 (877.0/5.0)
+|   |   entropy > 0.316699: 1 (14794.0)
+
+Number of Leaves  : 	180
+
+Size of the tree : 	359
+
+
+Time taken to build model: 1.7 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances       20623               96.8216 %
+Incorrectly Classified Instances       677                3.1784 %
+Kappa statistic                          0.9269
+Mean absolute error                      0.0348
+Root mean squared error                  0.172 
+Relative absolute error                  7.9555 %
+Root relative squared error             36.7575 %
+Total Number of Instances            21300     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.936     0.016      0.965     0.936     0.95       0.971    0
+                 0.984     0.064      0.97      0.984     0.977      0.971    1
+Weighted Avg.    0.968     0.049      0.968     0.968     0.968      0.971
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  6458   442 |     a = 0
+   235 14165 |     b = 1
+

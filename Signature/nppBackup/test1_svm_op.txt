@@ -1,0 +1,77 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.0010 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     TRAIN_1-weka.filters.unsupervised.attribute.NumericToNominal-Rlast
+Instances:    25560
+Attributes:   12
+              entropy
+              gray level threshold
+              no of black pixels
+              no of interior contours
+              no of exterior contours
+              no vertical slope components
+              no horizontal slope components
+              no positive slope components
+              no negative slope components
+              slant
+              height
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        26.2552 * (normalized) entropy
+ +      -0.502  * (normalized) gray level threshold
+ +       0.1231 * (normalized) no of black pixels
+ +      -3.1946 * (normalized) no of interior contours
+ +      -3.1584 * (normalized) no of exterior contours
+ +       3.2272 * (normalized) no vertical slope components
+ +       0.6306 * (normalized) no horizontal slope components
+ +      -1.1504 * (normalized) no positive slope components
+ +       3.1596 * (normalized) no negative slope components
+ +       0.767  * (normalized) slant
+ +       0.2352 * (normalized) height
+ -       2.6769
+
+Number of kernel evaluations: 7793280 (55.352% cached)
+
+
+
+Time taken to build model: 7.35 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances       20680               97.0892 %
+Incorrectly Classified Instances       620                2.9108 %
+Kappa statistic                          0.9341
+Mean absolute error                      0.0291
+Root mean squared error                  0.1706
+Relative absolute error                  6.6455 %
+Root relative squared error             36.4569 %
+Total Number of Instances            21300     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.973     0.03       0.94      0.973     0.956      0.971    0
+                 0.97      0.027      0.987     0.97      0.978      0.971    1
+Weighted Avg.    0.971     0.028      0.971     0.971     0.971      0.971
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  6711   189 |     a = 0
+   431 13969 |     b = 1
+
