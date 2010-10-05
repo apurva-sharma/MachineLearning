@@ -1,0 +1,95 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+
+<title>Fancy Cloud!</title>
+
+<script type="text/javascript" src="/static/tagcloud.js"></script>
+<script type="text/javascript" src="/static/jquery.js"></script>
+<script src="/static/javascript.js" type="text/javascript"></script>
+
+<style type="text/css">
+@import url(/static/style.css);
+</style>
+
+<style> v\:* behavior: url(#default#VML); position: absolute}</style>
+
+</head>
+
+<body onload="tagcloud.draw()">
+
+	<div id="loading"><p>Loading...Please Wait</p></div>
+
+    <div id="panel" style="height:500px;">
+      <div id="panel_contents">
+		<center><div id="tagclouddiv" style="position: relative; width: 500px; height: 500px;"></div></center>
+	  </div>
+    </div>
+	<div class="panel_button" style="display: visible;"> <a href="#" style="left:1px;">View Tag Cloud!</a> </div>
+
+<script type="text/javascript">
+//alert("Inside script");
+var tagcloud = new TagCloud(document.getElementById('tagclouddiv'),'random');
+document.getElementById('loading').style.visibility = 'visible';
+$.get("/fbcloud",function(result)
+		{
+			//alert("Inside Get");
+			vals = result.split(",");
+			
+			var n = (vals.length-1)/2;
+			//document.writeln(n);
+			
+			console.log(vals);
+			//alert("Length => " + vals.length);
+			/*
+			var ctr = 0;
+			for(var i=0;i<n;i++)
+			{
+				if(parseInt(vals[ctr+1])<10)
+					break;
+				tagcloud.addNode(new Node(vals[ctr],parseInt(vals[ctr+1])));
+				ctr += 2;
+			}
+			tagcloud.draw();
+			*/
+
+			var ctr = 0;
+			for(var i=0;i<n;i++)
+			{
+				if(parseInt(vals[ctr+1])<10)
+					break;
+				tagcloud.addNode(new Node(vals[ctr],parseInt(vals[ctr+1])));
+				ctr += 2;
+			}
+
+			tagcloud.draw();
+			document.getElementById('loading').style.visibility = 'hidden';
+			//alert("done");
+		});
+</script>
+
+<!-- Column 1 Header -->
+<div id="friends_news_header" style="margin: 0 20px 0 20px; float:left; width: 30%;">
+<p>See What Your Friends Are Talking About</p>
+</div>
+<!-- Column 2 Header -->
+<div id="everyone_news_header" style="margin: 0 10px 0 10px; float:left; width: 30%;">
+<p>See What Everyone Is Talking About</p>
+</div>
+<!-- Column 3 Header -->
+<div id="twitter_news_header" style="margin: 0 20px 0 20px; float:left; width: 30%;">
+<p>Check The Latest On Twitter</p>
+</div>
+
+<!-- Column 1 -->
+<div id="friends_news" style="margin: 0 20px 0 20px; float:left; width: 30%;">
+</div>
+<!-- Column 2 -->
+<div id="everyone_news" style="margin: 0 10px 0 10px; float:left; width: 30%;">
+</div>
+<!-- Column 3 -->
+<div id="twitter_news" style="margin: 0 20px 0 20px; float:left; width: 30%;">
+</div>
+
+</body>
+
+</html>

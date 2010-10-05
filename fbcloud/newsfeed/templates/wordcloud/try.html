@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="tc.css"/>
+    <script type="text/javascript" src="tc.js"></script>
+    <script type="text/javascript" src="jsapi.js"></script>
+  </head>
+  <body>
+    <div id="tcdiv"></div>
+	
+	<script type="text/javascript" src="jquery.js"></script>
+	
+    <script type="text/javascript">
+	  var vals;
+	  var search_option = 2;
+      google.load("visualization", "1");
+      google.setOnLoadCallback(draw);
+      function draw() {
+		//$.post("read_file.php",function(result)
+		//{
+			//vals = result.split(",");
+			data = new google.visualization.DataTable();
+			//var n = (vals.length-1)/2;
+			var n = 15;
+			//var ctr = 0;
+			var tag = ['happy','one','day','eid','birthday','time','out','watch','mubarak','well','new','make','today','fun','again'];
+			var freq = [34,19,19,18,16,14,14,13,13,12,11,11,10,10,10];
+			/*
+			for(var i=0;i<n;i++)
+			{
+				tag[i] = vals[ctr];
+				freq[i] = parseInt(vals[ctr+1]);
+				ctr += 2;
+			}*/
+			//document.writeln(n);
+			data.addColumn('string', 'Label');
+			data.addColumn('number', 'Value');
+			data.addColumn('string', 'Link');
+			data.addRows(n);
+			var str = '';
+			var randI = [];
+			randI = randomIndex(n);
+			for(i=0;i<n;i++)
+			{
+				var x = randI[i];
+				data.setValue(i, 0, tag[x]);
+				data.setValue(i, 1, freq[x]);
+				search_option = 2;
+				switch(search_option)
+				{
+					case 1: //google search
+						str = 'http://www.google.com/#sclient=psy&hl=en&aq=f&aqi=g4g-o1&aql=&oq=&gs_rfai=&pbx=1&fp=280187d6f0589da0&q=' + tag[x];
+						break;
+					case 3: //search Everyone on FB
+						str = 'http://www.facebook.com/search/?q=' + tag[x] + '&gl=1';
+						break;
+					case 4: //search Twitter
+						str = 'http://twitter.com/#search?q=' + tag[x];
+						break;
+					case 2: //search Friends Post on FB
+					default: //search Friends Post on FB
+						str = 'http://www.facebook.com/search/?q=' + tag[x] + '&fr=1';
+						break;
+				}
+				data.setValue(i, 2, str);
+			}
+			var outputDiv = document.getElementById('tcdiv');
+			var tc = new TermCloud(outputDiv);
+			tc.draw(data, null);
+		//});
+      }
+	  
+	  function randomIndex(arrl)
+	  {
+		if(arrl == 1)
+			return 0
+		var rI = [];
+		for(var i=0;i<arrl;i++)
+			rI[i] = 0;
+		var ctr = 1;
+		while(1)
+		{
+			var idx = Math.round((Math.random() * arrl) - 0.5)
+			if(idx >= arrl)
+				idx = arrl - 1
+			if(rI[idx]==0)
+			{
+				rI[idx] = ctr;
+				//document.write(rI[idx]);
+				ctr += 1;
+			}
+			if(ctr == arrl)
+				break;
+		}
+		return rI;
+	  }
+	  
+    </script>
+
+<iframe src="http://www.facebook.com/search/?flt=1&q=hackathon&gl=1&lo=en_US"> </iframe>
+
+  </body>
+</html>

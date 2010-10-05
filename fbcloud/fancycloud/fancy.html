@@ -1,0 +1,85 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+
+<title>Fancy Cloud!</title>
+
+<script type="text/javascript" src="tagcloud.js"></script>
+<script type="text/javascript" src="jquery.js"></script> 
+
+<style type="text/css">
+input
+{
+   font-size:14px;
+   font-family:Trebuchet MS,sans-serif;
+   font-weight:bold;
+   color:#FFFFFF;
+   height:25px;
+   background-color:#0077BB;
+   border-style:solid;
+   border-color:#000000;
+}
+
+input:hover
+{
+	background-color:#0066ff;
+}
+
+</style>
+
+<script type="text/javascript">
+$(document).ready(
+                function()
+                {
+				
+					$('#show_tag').hide();
+					
+					$('#regenerate').click(
+					function(){
+						tagcloud.redraw();
+					});
+					
+					$('#show_tag').click(
+					function(){
+						$('#tagcloud').show();
+						$('#regenerate').show();
+						$('#show_tag').hide();
+					});
+				});
+</script>
+
+<style> v\:* { behavior: url(#default#VML); position: absolute}</style>
+
+</head>
+<body text="#000000" bgcolor="#ffffff" onload="tagcloud.draw()">
+<center>
+<input type="button" value="Regenerate Tag Cloud" id="regenerate"></input> 
+<input type="button" value="Show Tag Cloud" id="show_tag"></input> 
+<input type="button" value="See What Your Friends are Talking About" id="show_friends"></input> 
+<input type="button" value="See What Everyone Is Talking About" id="show_everyone"></input>
+<input type="button" value="Check the latest on Twitter" id="show_twitter"></input> 
+</center>
+
+<center><div id="tagcloud" style="position: relative; width: 500px; height: 500px;"></div></center>
+
+<script type="text/javascript">
+var tagcloud = new TagCloud(document.getElementById('tagcloud'),'random');
+$.post("read_file.php",function(result)
+		{
+			vals = result.split(",");
+			
+			var n = (vals.length-1)/2;
+			//document.writeln(n);
+			
+			var ctr = 0;
+			for(var i=0;i<n;i++)
+			{
+				tagcloud.addNode(new Node(vals[ctr],parseInt(vals[ctr+1])));
+				ctr += 2;
+			}
+			tagcloud.draw();
+		});
+</script>
+
+</body>
+
+</html>

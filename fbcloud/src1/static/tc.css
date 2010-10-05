@@ -1,0 +1,13 @@
+.term-cloud {font-family: Impact,Century Gothic,Arial; font-size: 10px; }
+.term-cloud-1 {background-color: #bbeeff; font-family: Arial Narrow,Arial; font-size: 30px; color: #330066; }
+.term-cloud-2 {background-color: #ffdddd; font-family: Century Gothic,Arial; font-size: 34px; color: #cc2200; }
+.term-cloud-3 {background-color: #bbeeff; font-family: Georgia,Arial; font-size: 38px; color: #fa0; }
+.term-cloud-4 {background-color: #ccccff; font-family: Impact,Arial; font-size: 42px; color: #264ca2; }
+.term-cloud-5 {background-color: #ffff99; font-family: Century Gothic,Arial; font-size: 46px; color: #133b97; }
+.term-cloud-6 {background-color: #ffccbb; font-family: Verdana,Century Gothic,Arial; font-size: 52px; color: #002a8b; }
+.term-cloud-7 {background-color: #ccffcc; font-family: Arial Narrow,Arial; font-size: 56px; color: #0af; }
+.term-cloud-8 {background-color: #ffdddd; font-family: Georgia,Arial; font-size: 60px; color: #0c0; }
+.term-cloud-9 {background-color: #ffff99; font-family: Impact,Arial; font-size: 64px; color: #000000; }
+.term-cloud-error {font-family: Century Gothic,Arial; font-size: 10px; color: red; }
+.term-cloud-link {text-decoration: none; }
+.term-cloud-link:hover {text-decoration: none;}

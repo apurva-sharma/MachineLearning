@@ -1,0 +1,59 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+
+<title>Fancy Cloud!</title>
+
+<script type="text/javascript" src="/static/tagcloud.js"></script>
+<script type="text/javascript" src="/static/jquery.js"></script>
+<script src="/static/javascript.js" type="text/javascript"></script>
+
+<style type="text/css">
+@import url(/static/style.css);
+</style>
+
+<style> v\:* { behavior: url(#default#VML); position: absolute}</style>
+
+</head>
+
+<body onload="tagcloud.draw()">
+
+    <div id="panel">
+      <div id="panel_contents">
+		<center><div id="tagcloud" style="position: relative; width: 500px; height: 500px;"></div></center>
+	  </div>
+    </div>
+	<div class="panel_button" style="display: visible;"> <a href="#" style="left:1px;">View Tag Cloud!</a> </div>
+
+<script type="text/javascript">
+var tagcloud = new TagCloud(document.getElementById('tagcloud'),'random');
+$.get("/fbcloud",function(result)
+		{
+			vals = result.split(",");
+			
+			var n = (vals.length-2)/2;
+			//document.writeln(n);
+			
+			var ctr = 0;
+			for(var i=0;i<n;i++)
+			{
+				if(parseInt(vals[ctr+1])<10)
+					break;
+				tagcloud.addNode(new Node(vals[ctr],parseInt(vals[ctr+1])));
+				ctr += 2;
+			}
+			tagcloud.draw();
+		});
+</script>
+<!-- Column 1 -->
+<div id="friends_news" style="margin: 0 20px 0 20px; float:left; width: 30%;"><p>See What Are Friends Are Talking About</p>
+</div>
+<!-- Column 2 -->
+<div id="everyone_news" style="margin: 0 10px 0 10px; float:left; width: 30%;"><p>See What Everyone is Talking About</p>
+</div>
+<!-- Column 3 -->
+<div id="twitter_news" style="margin: 0 20px 0 20px; float:left; width: 30%;"><p>See the Latest News on Twitter</p>
+</div>
+
+</body>
+
+</html>
